@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply overflow-x-hidden scroll-smooth;
+    }
+
+    body {
+        @apply overflow-x-hidden antialiased;
+    }
+}
+
+@layer utilities {
+    [x-cloak] {
+        @apply !hidden;
+    }
+}
